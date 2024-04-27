@@ -1,0 +1,23 @@
+import turtle
+turtle.tracer(3)
+tom = turtle.Pen()
+jerry = turtle.Pen()
+tom.up()
+tom.goto(0,-100)
+tom.color("blue")
+tom.width(100)
+tom.down()
+tom.circle(150,360)
+tom.color("grey")
+tom.up()
+tom.width(5)
+tom.shape("turtle")
+tom.shapesize(2)
+jerry.up()
+jerry.shape("turtle")
+jerry.color("orange")
+jerry.goto(0,-70)
+while True:
+    jerry.circle(120,1)
+    tom.circle(150,1)
+
